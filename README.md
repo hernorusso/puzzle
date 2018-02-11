@@ -27,19 +27,19 @@ If you want to test the micro service in isolation, you just need to:
 
 you will see this output:  
 ```
-["message from: your.email@yourdomain.com",
+"message from: your.email@yourdomain.com",
 "Data saved!",
-"We did a great Job"]
+"We did a great Job"
 ```
 
 * or hit https://wt-899ad662534626853154fbb53e185922-0.run.webtask.io/ifttt-email-process
 
 and you will see an error report, data check has failed:
-```{
+```
   "code": 400,
   "error": "Script returned an error.",
   "details": "Error: no data",
   "name": "Error",
   "message": "no data",
   ...
-}```
+```
