@@ -8,8 +8,8 @@ This repo combines a couples of cloud services to play together as a node micro 
 
 ## How it works?
 
-Just sent an email to `herno.apps.testing@gmail.com`.
-Then check the applet log https://ifttt.com/activity/applet/72428461d and you should see a `applet run` log, which means
+Just sent an email to `herno.apps.testing@gmail.com`.  
+Then check the applet log https://ifttt.com/activity/applet/72428461d and you should see an `applet run` log, which means
 that our Webtask micro service has been execute successfully.
 
 ## What it does?
@@ -25,10 +25,14 @@ that our Webtask micro service has been execute successfully.
 If you want to test the micro service in isolation, you just need to:
 * hit https://wt-899ad662534626853154fbb53e185922-0.run.webtask.io/ifttt-email-process?from=your.email@yourdomain.com
 
-you will see this output:
-```["message from: your.email@yourdomain.com","Data saved!","We did a great Job"]```
+you will see this output:  
+```
+["message from: your.email@yourdomain.com",
+"Data saved!",
+"We did a great Job"]
+```
 
-* hit https://wt-899ad662534626853154fbb53e185922-0.run.webtask.io/ifttt-email-process
+* or hit https://wt-899ad662534626853154fbb53e185922-0.run.webtask.io/ifttt-email-process
 
 and you will see an error report, data check has failed:
 ```{
