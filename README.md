@@ -16,9 +16,9 @@ that our Webtask micro service has been execute successfully.
 
 * We have a hook (IFTTT) on every new email sent to `herno.apps.testing@gmail.com` that fires a Webtask.
 * Webtask runs a service that:
-    * executes some data checks,
+    * Executes some data checks
     * Save Data to a DB
-    * Execute a success function (we're currently just logging a message).
+    * Execute a success function (we're currently just logging a message)
 
 ## Test instructions 
 
