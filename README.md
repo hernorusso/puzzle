@@ -1,4 +1,4 @@
-# Puzzles
+# Puzzle
 
 This repo combines a couples of cloud services to play together as a node micro service:
 
